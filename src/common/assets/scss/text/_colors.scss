@@ -1,0 +1,9 @@
+.custom-color {
+    background-image: linear-gradient(to right, #73E0A9 0%, #5B68DF 51%, #73E0A9 100%);
+    color: transparent;
+    background-clip: text;
+
+    &::selection {
+        color: white;
+    }
+}
